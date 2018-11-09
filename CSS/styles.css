@@ -1,0 +1,57 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+
+.info{
+    position: relative;
+    left: 320px;
+    bottom: 400px;
+}
+
+section{
+    height: 450px;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    margin-left: 230px;
+}
+
+#navBar li
+{
+    margin-right: 40px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.baylasan 
+{
+    margin-top: -100px;
+}
+
+#name 
+{
+    font-size: 25px;
+    line-height: 3;
+}
+p, label{
+    display: inline;
+    font-size: 16px;
+    line-height: 2;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+}
