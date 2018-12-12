@@ -1,0 +1,84 @@
+/*styling inspired from https://www.instagram.com/*/
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*#logo{
+    text-align: center;
+    padding: 20px 140px;
+    border: 1px solid #000000;
+    margin-bottom: -7px;
+   
+}*/
+#first{
+    width: 270px;
+    height: 270px;
+    margin:auto;
+    border-radius: 3px;
+    border: 1px solid #D0D0D0;
+}
+
+#second{
+    width: 270px;
+    height: 40px;
+    margin:auto;
+    border-radius: 3px;
+    border: 1px solid #D0D0D0;
+}
+
+#signup{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30pt;
+    font-family: 'Lobster', cursive; 
+}
+
+#loginInfo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#email, #password{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    margin-top: 8px;
+    background: #F8F8F8;
+}
+
+#email:focus, #password:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+#login{
+    margin-top: 10px;
+    width: 88%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    /*background-color: #C8C8C8;*/
+    background-color: #6699FF;
+    cursor: pointer;
+    opacity: 0.8;
+    color: white;
+}
+
+#check{
+    cursor: pointer;
+    
+}
+
+a{
+    color: #0099FF;
+    text-decoration: none;
+}

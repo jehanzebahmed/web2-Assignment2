@@ -1,0 +1,38 @@
+<!--https://www.w3schools.com/howto/howto_css_login_form.asp-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login/logout</title>
+    <link rel="stylesheet" href="../CSS/loginStyle.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+</head>
+<body>
+    
+    <form action="/php/login.php" method="post" target="_self">
+        
+        <fieldset id="first">
+                <h1 id="header">Login</h1>
+                <div id="loginInfo">
+                    
+                    <input id="email" type="email" name="Email" value="" placeholder="Username or email" required/> <br>
+                    
+                    <input id="password" type="password" name="pwd" value="" placeholder="Password" required/> <br>
+                    
+                    <button id="login" type="submit">Log in</button> <br> 
+                    
+                    <label id="remember">
+                        <input id="check" type="checkbox" name="remember"> Remember me
+                    </label>
+            </div>
+        </fieldset>
+        
+        <fieldset id="second">
+            <div id="signup">
+                <span>Don't have an account? <a href="signup.html">Sign Up</a></span>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

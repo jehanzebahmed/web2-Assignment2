@@ -1,0 +1,36 @@
+<!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_signup_form-->
+<?php include('../php/register.php')?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="../CSS/signupStyle.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/php/register.php" method="POST">
+            <fieldset id="first">
+                <h1 id="header">Sign up</h1>
+                    <div id="info">
+                        <input id="firstname" type="text" name="FirstName" value="" placeholder="First Name" required/> <br>
+                 
+                        <input id="lastname" type="text" name="LastName" value="" placeholder="Last Name" required/> <br>
+              
+                        <input id="city" type="text" name="City" value="" placeholder="City" required/> <br>
+                        
+                        <input id="country" type="text" name="Country" value="" placeholder="Country" required/> <br>
+                        
+                        <input id="eml" type="email" name="Email" value="" placeholder="Email" required/><br>
+    
+                        <input id="pswd" type="password" name="pwd" value="" placeholder="Password" required/><br>
+    
+                        <input id="pswdag" type="password" name="pwd" value="" placeholder="Repeat password" required/><br>
+                        
+                        <button id="signup" type="submit">Sign up</button>
+                    </div>
+                    <p id="conditions">By signing up, you agree to our <b>Terms</b>, <b>Data Policy</b> and <b>Cookies Policy</b>. </p>
+            </fieldset>
+        </form>
+    </body>
+</html>

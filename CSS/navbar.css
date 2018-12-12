@@ -1,0 +1,47 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+}
+
+nav{
+    opacity: 1;
+    /*filter: alpha(opacity=30);*/
+    background-color: #808080;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: -8px;
+    margin-bottom: 10px;
+    
+}
+
+
+li a{
+    color: #FFFFFF;
+    float: right;
+    margin-right: 50px;
+}
+
+li a:hover {
+    color: #D0D0D0;
+    text-decoration: none;
+}
+
+#navBar li
+{
+    display: inline;
+    margin-right: 40px;
+}
+
+#websiteImg, #homeIcon, #aboutIcon, #favouritesIcon, #loginIcon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    
+}
+
+#homeIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+}
+

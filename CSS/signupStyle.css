@@ -1,0 +1,61 @@
+/*inspired by https://www.instagram.com/accounts/emailsignup/ */
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+#first{
+    width: 320px;
+    height: 500px;
+    margin:auto;
+    border-radius: 3px;
+    border: 1px solid #D0D0D0;
+}
+
+#header{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30pt;
+    font-family: 'Courgette', cursive;
+}
+
+#firstname, #lastname, #country, #city, #eml, #pswd, #pswdag{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    margin-top: 6px;
+    background: #F8F8F8;
+}
+
+#firstname:focus, #lastname:focus, #country:focus, #city:focus, #eml:focus, #pswd:focus, #pswdag:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+#info{
+    text-align: center;
+}
+
+#conditions{
+    text-align: center;
+    font-size: 11pt;
+    color: #686868;
+    padding-left: 48px;
+    padding-right: 60px;
+}
+
+#signup{
+    margin-top: 10px;
+    width: 88%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    background-color: #6699FF;
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+}

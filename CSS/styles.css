@@ -1,57 +1,119 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+
 img{
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
 }
 
 .info{
+    /*left: 320px;
+    bottom: 400px;*/
+    /*margin-top: 250px;*/
+    /*margin-left: -50px;
+    padding-right: 120px;*/
+    /*float: left;*/
+    width: 220px;
     position: relative;
-    left: 320px;
-    bottom: 400px;
 }
 
 section{
     height: 450px;
+    margin: 10px;
+    border-style: outset;
+    padding: 10px;
+    
+}
+
+#allSec {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#navBar {
+    /*filter: brightness(100%) grayscale(20%);*/
+    opacity: 1;
+    filter: alpha(opacity=30);
+    background-color: #404040;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: -8px;
+}
+/*Main*/
+main{
+    
+    position: relative;
+    top: 100px;
+    width: 850px;
 }
 
 li {
     display: inline;
-    margin-right: 30px;
-    margin-left: 230px;
+    /*padding-left: 150px;*/
+}
+
+li a{
+    color: #FFFFFF;
+    float: right;
+    margin-right: 50px;
+}
+
+li a:hover {
+    /*background-color: #555;*/
+    color: #D0D0D0;
+    text-decoration: none;
+}
+
+#singlePerson{
+    width: 600px;
+    position: relative;
+    left: 900px;
+    bottom: 500px;
+}
+
+#singlePerson img{
+    width: 300px;
+    height:400px;
 }
 
 #navBar li
 {
     margin-right: 40px;
+    
+    
 }
 
 label {
     font-weight: bold;
-}
 
-.baylasan 
-{
-    margin-top: -100px;
 }
 
 #name 
 {
-    font-size: 25px;
-    line-height: 3;
+    font-size: 20px;
+    /*line-height: 3;*/
 }
+
 p, label{
     display: inline;
     font-size: 16px;
     line-height: 2;
 }
+
 a:link {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
+    color: #D0D0D0;
+    
 }
-a:visited {
+
+/*a:visited {
     color: blue;
-}
+}*/
+

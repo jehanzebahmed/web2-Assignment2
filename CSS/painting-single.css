@@ -1,0 +1,155 @@
+.six{
+  grid-column: 1/ span 5;
+  grid-row:2/ span 3;
+  background-color: white;
+  height: 850px;
+  font-size: 90%;
+  border-radius:15px/ 50px; /*used w3schools, https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+  border: solid 2pt black;
+  
+ 
+}
+
+.six section{
+  background-color: #cdcdcd;
+  float: right;
+  width: 450px;
+  height:720px;
+  padding: 20px;
+  position: relative;
+  right:20px;
+  top: 30px;
+  border-radius:15px/ 50px; /*used w3schools, https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+  border: solid 2pt black;
+  
+  
+}
+
+.six label{
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.six h3, .six a{
+  font-weight: normal;
+  font-size: 130%;
+}
+
+
+#desc{
+  padding: 10px;
+  width: 440px;
+  height: 230px;
+  overflow-y: auto; /*used w3schools, https://www.w3schools.com/cssref/tryit.asp?filename=trycss_overflow*/
+  text-align: left;
+  font-weight: normal;
+  
+  margin:0px;
+}
+
+#about{
+  text-align: center;
+  
+  margin-top: 0px;
+  width: 80%;
+}
+
+#detail, #medium, #size, #copy, #cost{
+  display: inline;
+}
+
+#paintingT, #name{
+  text-align: center;
+  font-size: 200%;
+  color: white;
+  width: 100%;
+  font-family: 'Lobster', sans-serif;
+}
+
+#paintingT{
+  margin:0px;
+  width:100%;
+  
+  
+}
+
+#name{
+  border-bottom: dotted 2pt black; /*from w3schools, https://www.w3schools.com/css/css_border.asp */
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+label:first-child{
+    margin-top: 10px;
+}
+
+img{
+    width: 750px;
+  height:750px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+ margin-bottom: 10px;
+}
+
+
+
+div.colors{
+    margin: 8px;
+    width: 88px;
+    padding-left:15px;
+    padding-bottom:15px;
+   background-color:  #cdcdcd;
+   font-size: 70%;
+   border-radius:15px/ 40px; /*used w3schools, https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+  border: solid 2pt black;
+   height: 100px;
+    
+}
+
+#scheme{
+    position: relative;
+    bottom:740px;
+    left: 800px;
+    width:690px;
+}
+
+#closeButton{
+ float: right;
+ position: relative;
+ bottom: 730px;
+ right: 20px;
+ background-color: white;
+ padding: 5px;
+ color: black;
+ cursor: pointer; /*used w3schools, https://www.w3schools.com/cssref/pr_class_cursor.asp */
+ font-size: 100%;
+ 
+}
+
+#closeButton:hover{ /*used w3school for hover syntax, https://www.w3schools.com/css/css_pseudo_classes.asp*/
+  background-color: #cdcdcd;
+}
+
+html{
+    height: 200px;
+    width:1490px;
+   margin-right:0px;
+}
+
+.colors p{
+  margin:10px;
+  margin-left:0px;
+}
+
+body{
+  margin:10px;
+}
+
+#navBar img{
+  left:0px;
+  top:20px;
+  position:relative;
+}

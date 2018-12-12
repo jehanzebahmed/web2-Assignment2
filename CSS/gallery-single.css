@@ -1,0 +1,123 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#galleryName, #tableRow{
+    font-family: 'Lobster', sans-serif;
+    font-size: 20pt;
+}
+
+#galleryName{
+    font-size: 32pt;
+}
+
+.one h2{
+    
+    color: black;
+    text-align: center;
+    font-size: 1.7em;
+    padding-top: 0px;
+    border-bottom: solid 1pt white;
+}
+
+
+.one {
+   grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    height: 350px;
+    margin-bottom: 10px;
+   
+}
+.two {
+  grid-column: 1 / span 2;
+  grid-row: 2/ span 3;
+
+}
+
+
+
+.container {
+  display: grid;
+  grid-gap: 10px; /*from lab*/
+  grid-template-columns: 20rem 25rem auto; /*from lab */
+  color: #444;
+}
+
+.box {
+  background-color: #cdcdcd;
+  color: black;
+  padding: 20px;
+  font-size: 150%;
+  border-radius: 15px / 50px; /*used w3schools, https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+  border: solid 2pt black;
+}
+
+#map{
+     height: 600px;
+
+   
+}
+
+div.one section {
+		display: grid;
+    grid-gap: 5px; /*from lab*/
+    grid-template-columns: 10rem auto;	 /*used from lab*/
+    
+}
+
+
+
+
+
+.three tbody tr:hover{ /*used w3school for hover syntax, https://www.w3schools.com/css/css_pseudo_classes.asp*/
+background-color: #6699FF;
+cursor: pointer; /*used w3schools, https://www.w3schools.com/cssref/pr_class_cursor.asp */
+}
+
+.three thead th:hover{ /*used w3school for hover syntax, https://www.w3schools.com/css/css_pseudo_classes.asp*/
+color:white;
+cursor: pointer; /*used w3schools, https://www.w3schools.com/cssref/pr_class_cursor.asp */
+}
+
+.three {
+grid-column: 3 /span 2;
+grid-row: 1/ span 1;
+}
+
+#paintingDetail{
+  border-collapse: collapse; /* used w3schools, https://www.w3schools.com/css/css_table.asp*/
+}
+
+th, td{
+  border-bottom: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+thead{
+  border-bottom: solid 2pt black;
+}
+
+.one label{
+  color:#6699FF;
+}
+
+#bigDiv{
+   grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+#closeButton{
+ float: right;
+ background-color: white;
+ padding: 5px;
+ color: black;
+ cursor: pointer; /*used w3schools, https://www.w3schools.com/cssref/pr_class_cursor.asp */
+ font-size: 100%;
+ 
+}
+
+#closeButton:hover{ /*used w3school for hover syntax, https://www.w3schools.com/css/css_pseudo_classes.asp*/
+  background-color: #6699FF;
+}

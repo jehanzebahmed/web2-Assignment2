@@ -1,0 +1,111 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+h2, #tableHead{
+  font-family: 'Lobster', sans-serif;
+    font-size:28px;
+}
+
+#tableHead{
+  font-size: 19.2px
+}
+
+.box {
+  background-color: #cdcdcd;
+  color: black;
+  padding: 20px;
+  font-size: 150%;
+  border-radius:15px/ 50px; /*used w3schools, https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+  border: solid 2pt black;
+}
+
+
+.three tbody tr:hover{ /*used w3school for hover syntax, https://www.w3schools.com/css/css_pseudo_classes.asp*/
+background-color: #6699FF;
+cursor: pointer; /*used w3schools, https://www.w3schools.com/cssref/pr_class_cursor.asp */
+}
+
+.three thead th:hover{ /*used w3school for hover syntax, https://www.w3schools.com/css/css_pseudo_classes.asp*/
+color:white;
+cursor: pointer; /*used w3schools, https://www.w3schools.com/cssref/pr_class_cursor.asp */
+}
+
+
+
+#paintingDetail{
+  border-collapse: collapse; /* used w3schools, https://www.w3schools.com/css/css_table.asp*/
+}
+
+th, td{
+  border-bottom: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+
+thead{
+  border-bottom: solid 2pt black;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}
+
+tbody img{
+  width:110px;
+  height: 116px;
+}
+
+.two p{
+  width:520px;
+  height:  134px;
+  overflow: auto; /*used w3schools, https://www.w3schools.com/cssref/tryit.asp?filename=trycss_overflow*/
+  text-align: left;
+  font-weight: normal;
+  font-size: 80%;
+}
+
+.three {
+grid-column: 3 /span 1;
+grid-row: 2/ span 1;
+}
+
+.two{
+ grid-column: 1 /  span 2;
+ grid-row: 2 / span 1;
+height: 1000px;
+}
+
+.container {
+  display: grid;
+  grid-gap: 10px; /*from lab*/
+  grid-template-columns: 20rem 25rem auto; /*from lab */
+  color: #444;
+}
+
+.one {
+  grid-column: 1 /  span 3;
+    grid-row: 1 / span 0;
+   
+}
+
+#closeButton{
+ float: right;
+ position: relative;
+ right:32px;
+ bottom: 20px;
+ background-color: white;
+ padding: 5px;
+ color: black;
+ cursor: pointer; /*used w3schools, https://www.w3schools.com/cssref/pr_class_cursor.asp */
+ font-size: 90%;
+ 
+}
+
+#closeButton:hover{ /*used w3school for hover syntax, https://www.w3schools.com/css/css_pseudo_classes.asp*/
+  background-color: #6699FF;
+}

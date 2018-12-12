@@ -1,0 +1,67 @@
+background color: white 
+text-color: black;
+click bottons: #6699FF;
+ opacity: 0.8;
+
+FONT FOR ALL HEADING 
+
+font-family: 'Lobster', cursive; 
+
+
+FONT FOR Anything else (information)
+
+font-family: 'Roboto', sans-serif;
+
+require online this link for both fonts 
+<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:500" rel="stylesheet">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+*{
+color : white;
+}
+
+
+Home page has 3 sections 
+1. Gallery list
+
+2. All Artist List
+
+3. All Genre 
+
+
+*For each sections we will have a seperate .php file 
+Why? because it is easier to implement while we all wrok collaboratively.
+Also it will make it easier to design(CSS) without inteferring anyones else work
+
+Once we get it working, we will copy the entire php script from each file and paste it in the index.php file.
+And add click event handler to hide/show each php script
+
+For the implement of each list, we can copy code from one of our own assignment 1.
+
+we will need to have implement genre list as it wasnt in the previous assignment
+
+

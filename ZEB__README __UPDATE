@@ -1,0 +1,43 @@
+I worked on 
+
+Single Page View for both Artist and Genre
+they are finished except the images 
+i spent 2 hours getting the image scale to work but i couldnt so i will work on it tommorow 
+i also had to change the genre api sql statement because it was wrong- i dont know how randy didnt check that lol 
+
+i still need to clean up code (like random echo array statements) - so ignore those 
+THERE is also some code redundancy -- i will clean that up!
+Also i used my assignment 1 css to show the Single Page View for both Artist and Genre 
+
+
+what  i still need to do: (or Anyone can do it - if you know how to)
+
+- do the single painting view for a single painting with the color scheme
+- Sessions 
+- login / log out user information to be verified and put into db
+- favorites 
+///// i posted  a link on the group chat about login and sign up form. its a step by step tutorial. only thing its missing the salt value 
+
+
+- of course css
+
+YOU ARE MORE THAN WELCOME TO CHANGE ANY CSS FILE OR REFERENCE - i used mine just so i can see stuff!
+AT this point DO whatever you can. IF you know how to do something DO it !!! 
+comment otherperson code -- and work on what you want!
+
+
+ALSO if you guys have problem doing CSS - 
+create a new file with different name!
+copy the code to the new file and see if it works
+
+CLOUD 9 is a pain !!! So thats the only solution i found so far 
+
+if this doesnt work!!
+
+Create a new work place 
+download the files from our current work place 
+and upload them to your new work place 
+
+IF nothing works !!! TAKE A BREAK! lol pray to GOD so your code works!
+
+DONT GIVE UP! YOU GOT THIS!! lol 
